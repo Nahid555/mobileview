@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#00B8D4"
+    android:layout_height="match_parent"
+    tools:context=".FeedbackActivity">
+
+    <EditText
+        android:id="@+id/editText1"
+        android:hint="Enter your Name"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        />
+    <EditText
+        android:id="@+id/editText2"
+        android:hint="Enter your Feedback"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        />
+    <LinearLayout
+        android:weightSum="2"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/send"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Send"
+            android:textColor="#E9E7E7"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:background="#FF4081"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/reset"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Reset"
+            android:textColor="#E9E7E7"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:background="#FF4081"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textView"
+       android:gravity="center"
+        android:textSize="25sp"
+        android:textColor="#FDFAFA"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

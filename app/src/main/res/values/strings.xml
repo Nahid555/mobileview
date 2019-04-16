@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Mobile Viewer</string>
+    <string name="title_activity_my_display">Mobile Viewer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Mobile Viewer</string>
+    <string name="nav_header_subtitle">Choice your mobile phone</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+   <string name="about">" Mobile: 01790070914\n
+       G-Mail: mdriponsheikh14@gmail.com\n\n
+       Thanks for useing my Application\n
+       This is my first application.\n
+       Please don't bad comment.\n
+       You can contact any kinds of software"</string>
+
+</resources>

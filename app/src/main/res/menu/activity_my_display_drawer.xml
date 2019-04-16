@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Samsung"
+            android:icon="@drawable/menu_icon"
+            android:title="Samsung" />
+        <item
+            android:id="@+id/apple"
+            android:icon="@drawable/menu_icon"
+            android:title="Apple" />
+        <item
+            android:id="@+id/Nokia"
+            android:icon="@drawable/menu_icon"
+            android:title="Nokia" />
+        <item
+            android:id="@+id/Xiaomi"
+            android:title="Xiaomi"
+            android:icon="@drawable/menu_icon"/>
+
+        <item
+            android:id="@+id/Symphony"
+            android:icon="@drawable/menu_icon"
+            android:title="Symphony" />
+        <item
+            android:id="@+id/Walton"
+            android:icon="@drawable/menu_icon"
+            android:title="Walton" />
+        <item
+            android:id="@+id/HTC"
+            android:title="HTC"
+            android:icon="@drawable/menu_icon"
+            />
+        <item
+            android:id="@+id/OnePlus"
+            android:title="OnePlus"
+            android:icon="@drawable/menu_icon"
+            />
+        <item
+            android:id="@+id/Oppo"
+            android:title="Oppo"
+            android:icon="@drawable/menu_icon"
+            />
+        <item
+            android:id="@+id/blackbary"
+            android:title="Blackberry"
+            android:icon="@drawable/menu_icon"
+            />
+        <item
+            android:id="@+id/Alcatel"
+            android:title="Alcatel"
+            android:icon="@drawable/menu_icon"
+            />
+        <item
+            android:id="@+id/Asus"
+            android:title="Asus"
+            android:icon="@drawable/menu_icon"
+            />
+        <item
+            android:id="@+id/Micromax"
+            android:title="Micromax"
+            android:icon="@drawable/menu_icon"
+            />
+        <item
+            android:id="@+id/lenovo"
+            android:title="Lenovo"
+            android:icon="@drawable/menu_icon"
+            />
+        <item
+            android:id="@+id/vivo"
+            android:title="Vivo"
+            android:icon="@drawable/menu_icon"
+            /><item
+            android:id="@+id/google"
+            android:title="Google"
+            android:icon="@drawable/menu_icon"
+            />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+        </menu>
+    </item>
+
+</menu>
